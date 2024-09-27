@@ -1,0 +1,19 @@
+{
+  "name": "guessi",
+  "version": "1.0.0",
+  "description": "Implementation of Spotify API for playing with songs",
+  "main": "index.js",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "co": "sui-mono commit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezequiel Mastropietro",
+  "license": "ISC",
+  "dependencies": {
+    "@s-ui/mono": "^2.45.0"
+  }
+}
